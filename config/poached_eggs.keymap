@@ -43,12 +43,12 @@
             >;
         };
 
-        lower_layer {
+        layer_math {
             bindings = <
-&kp ESC    &kp N1    &kp N2  &kp N3    &kp N4      &kp N5                      &kp N6     &kp N7    &kp N8     &kp N9          &kp N0           &kp GRAVE
-&kp GRAVE  &kp EXCL  &kp AT  &kp HASH  &kp DOLLAR  &kp PRCNT                   &kp CARET  &kp AMPS  &kp ASTRK  &kp LPAR        &kp RPAR         &kp TILDE
-&kp RET    &none     &none   &none     &none       &none                       &none      &none     &none      &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp PIPE
-&none      &none     &none   &trans    &trans      &trans     &kp DEL  &trans  &mo 3      &trans    &trans     &none           &none            &none
+&none      &none       &kp N1       &kp N2       &kp N3        &kp MINUS                                  &kp CARET    &kp LT          &kp EQUAL       &kp GT         &none     &none
+&kp TILDE  &kp N0      &mt LGUI N4  &mt LALT N5  &mt LSHFT N6  &kp DOT                                    &kp UNDER    &mt RSHFT PLUS  &mt RALT MINUS  &mt RGUI STAR  &kp FSLH  &kp PRCNT
+&none      &kp DOLLAR  &kp N7       &kp N8       &kp N9        &none                                      &none        &kp EXCL        &kp QMARK       &kp COLON      &kp SEMI  &none
+&none      &none       &none        &none        &none         &none      &mt LCTRL ENTER  &mt RCTRL TAB  &lt 1 SPACE  &none           &none           &none          &none     &none
             >;
         };
 
