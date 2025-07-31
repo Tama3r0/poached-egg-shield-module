@@ -52,12 +52,12 @@
             >;
         };
 
-        raise_layer {
+        layer_navi {
             bindings = <
-&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6                   &kp F7    &kp F8     &kp F9     &kp F10   &kp F11    &kp F12
-&none   &none   &none   &none   &none   &none                    &none     &kp LEFT   &kp DOWN   &kp UP    &kp RIGHT  &none
-&none   &none   &none   &none   &none   &none                    &kp PLUS  &kp MINUS  &kp EQUAL  &kp LBKT  &kp RBKT   &kp BSLH
-&none   &none   &none   &trans  &trans  &mo 3   &trans  &kp DEL  &trans    &trans     &trans     &none     &none      &none
+&none   &none     &kp LBKT        &kp DQT       &kp RBKT        &kp AMPS                         &kp ESC  &kp F1   &kp F2   &kp F3  &none   &none
+&kp AT  &kp HASH  &mt LCTRL LPAR  &mt LALT SQT  &mt LSHFT RPAR  &kp PIPE                         &kp F4   &kp F5   &kp F6   &kp F7  &kp F8  &kp F9
+&none   &kp BSLH  &kp LBRC        &kp GRAVE     &kp RBRC        &none                            &none    &kp F10  &kp F12  &none   &none   &none
+&none   &none     &none           &none         &none           &lt 4 BACKSPACE  &trans  &trans  &none    &none    &none    &none   &none   &none
             >;
         };
 
