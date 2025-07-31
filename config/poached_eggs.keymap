@@ -70,18 +70,18 @@
 
         layer_math {
             bindings = <
-&none      &none       &kp N1       &kp N2       &kp N3        &kp MINUS                                  &kp CARET    &kp LT          &kp EQUAL       &kp GT         &none     &none
-&kp TILDE  &kp N0      &mt LGUI N4  &mt LALT N5  &mt LSHFT N6  &kp DOT                                    &kp UNDER    &mt RSHFT PLUS  &mt RALT MINUS  &mt RGUI STAR  &kp FSLH  &kp PRCNT
-&none      &kp DOLLAR  &kp N7       &kp N8       &kp N9        &none                                      &none        &kp EXCL        &kp QMARK       &kp COLON      &kp SEMI  &none
+&none      &none       &kp N1       &kp N2       &kp N3        &trans                                  &kp EQUAL    &kp LT          &kp UNDER       &kp GT         &none     &none
+&kp PLUS  &kp N0      &mt LGUI N4  &mt LALT N5  &mt LSHFT N6  &kp DOT                                    &kp LS(INT1)    &mt RSHFT COLON  &mt RALT MINUS  &mt RGUI DQT  &kp FSLH  &kp PRCNT
+&none      &kp DOLLAR  &kp N7       &kp N8       &kp N9        &none                                      &none        &kp EXCL        &kp QMARK       &kp SQT      &kp SEMI  &none
 &none      &none       &none        &none        &none         &none      &mt LCTRL ENTER  &mt RCTRL TAB  &lt 1 SPACE  &none           &none           &none          &none     &none
             >;
         };
 
         layer_navi {
             bindings = <
-&none   &none     &kp LBKT        &kp DQT       &kp RBKT        &kp AMPS                         &kp ESC  &kp F1   &kp F2   &kp F3  &none   &none
-&kp AT  &kp HASH  &mt LCTRL LPAR  &mt LALT SQT  &mt LSHFT RPAR  &kp PIPE                         &kp F4   &kp F5   &kp F6   &kp F7  &kp F8  &kp F9
-&none   &kp BSLH  &kp LBRC        &kp GRAVE     &kp RBRC        &none                            &none    &kp F10  &kp F12  &none   &none   &none
+&none   &none     &kp LBKT        &kp AT      &kp NUHS        &kp CARET                         &kp ESC  &kp F1   &kp F2   &kp F3  &none   &none
+&kp LBKT  &kp HASH  &mt LGUI STAR &mt LALT AMPS  &mt LSHFT RPAR  &kp LS(INT3)                         &kp F4   &kp F5   &kp F6   &kp F7  &kp F8  &kp F9
+&none   &kp INT1  &kp RBRC        &kp LBRC     &kp TILDE2        &none                            &none    &kp F10  &kp F12  &none   &none   &none
 &none   &none     &none           &none         &none           &lt 4 BACKSPACE  &trans  &trans  &none    &none    &none    &none   &none   &none
             >;
         };
