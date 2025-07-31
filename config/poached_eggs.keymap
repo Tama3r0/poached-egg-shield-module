@@ -46,7 +46,7 @@
         };
 
         combo_tenkey_bt {
-            bindings = <&to 3>;
+            bindings = <&tog 3>;
             key-positions = <11 49>;
         };
 
@@ -79,9 +79,9 @@
 
         layer_navi {
             bindings = <
-&none   &none     &kp LBKT        &kp AT      &kp NUHS        &kp CARET                         &kp ESC  &kp F1   &kp F2   &kp F3  &none   &none
-&kp LBKT  &kp HASH  &mt LGUI STAR &mt LALT AMPS  &mt LSHFT RPAR  &kp LS(INT3)                         &kp F4   &kp F5   &kp F6   &kp F7  &kp F8  &kp F9
-&none   &kp INT1  &kp RBRC        &kp LBRC     &kp TILDE2        &none                            &none    &kp F10  &kp F12  &none   &none   &none
+&none   &none     &kp RBKT         &kp AT      &kp NUHS        &kp CARET                         &kp ESC  &kp F1   &kp F2   &kp F3  &none   &none
+&kp LBKT  &kp HASH  &mt LGUI STAR &mt LALT AMPS  &mt LSHFT LPAR  &kp LS(INT3)                         &kp F4   &kp F5   &kp F6   &kp F7  &kp F8  &kp F9
+&none   &kp INT1  &kp RBRC        &kp LBRC     &kp TILDE2        &none                            &none    &kp F10  &kp F11  &kp F12   &none   &none
 &none   &none     &none           &none         &none           &lt 4 BACKSPACE  &trans  &trans  &none    &none    &none    &none   &none   &none
             >;
         };
@@ -89,8 +89,8 @@
         layer_tenkey_bt {
             bindings = <
 &none  &none         &kp ESCAPE    &kp UP        &kp ENTER     &none                     &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_4  &kp KP_NUMBER_7  &kp ESC        &none
-&none  &none         &kp LEFT      &kp DOWN      &kp RIGHT     &none                     &none            &kp KP_NUMBER_2  &kp KP_NUMBER_5  &kp KP_NUMBER_8  &kp SLASH      &none
-&none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_CLR                &kp PERIOD       &kp KP_NUMBER_3  &kp KP_NUMBER_6  &kp KP_NUMBER_9  &kp ASTRK      &none
+&none  &none         &kp LEFT      &kp DOWN      &kp RIGHT     &none                     &none            &kp KP_NUMBER_2  &kp KP_NUMBER_5  &kp KP_NUMBER_8  &kp FSLH     &none
+&none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_CLR                &kp PERIOD       &kp KP_NUMBER_3  &kp KP_NUMBER_6  &kp KP_NUMBER_9  &kp DQT      &none
 &none  &none         &none         &none         &none         &none       &none  &none  &kp ENTER        &kp ENTER        &kp PLUS         &kp MINUS        &kp BACKSPACE  &none
             >;
         };
